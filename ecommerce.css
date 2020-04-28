@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	/*margin-top:200px;*/
+}
+.carousel-caption h2,.carousel-caption p{
+	color: black;
+	font-weight: bold;
+}
+.imgs a img:hover{
+	transform: translateY(-20px);
+}
+.add_cart{
+	
+}

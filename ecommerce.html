@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ecommerce Website</title>
+	 <link rel="stylesheet" type="text/css" href="ecommerce.css"> 
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	 	<div class="container text-uppercase p-2">
+  <a class="navbar-brand font-weight-bold text-white" href="#">ShopNow</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav ml-auto">
+    	            <li class="nav-item active">
+	             	   <a class="nav-link" href="#Gadgets">Laptops,Computers <span class="sr-only">(current)</span></a>
+      				</li>
+      				<li class="nav-item">
+	             	   <a class="nav-link" href="#Women'sFashion">Women's Fashion</a>
+                    </li>
+                    <li class="nav-item">
+	             	   <a class="nav-link" href="#Men'sFashion">Men's Fashion</a>
+                     </li>
+                    <li class="nav-item">
+	             	   <a class="nav-link" href="#Kid'sFashion">Kid'sWear</a>
+                    </li>
+                    <li class="nav-item">
+	             	   <a class="nav-link" href="#Books">Books</a>
+                    </li>
+                    <li class="nav-item">
+	             	   <a class="nav-link" href="#Watches">Watches</a>
+                    </li>
+                    <li class="nav-item">
+	             	   <a class="nav-link" href="#Gifts">Gifts</a>
+                    </li>
+                    <a href="#"><i class="icon fa-2x fa fa-shopping-cart" aria-hidden="true" style="font-size: 24px; color: white"></i><span id="count">0</span></a>
+      
+    </ul>
+       <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">  -->
+      	<a href="#" class="register my-4 mr-4 ml-4 my-sm-0" >Login</a></button>
+  </div>
+				
+  </div>
+  </nav> 
+  <!--  -->
+   <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.pexels.com/photos/994517/pexels-photo-994517.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Women's Fashion" width="1000" height="250">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="men's Fashion" width="1000" height="250">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Laptops" width="1000" height="250">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Watches" width="1000" height="250">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/1005324/literature-book-open-pages-1005324.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Books" width="1000" height="250">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/267301/pexels-photo-267301.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Books" width="1000" height="250">
+    </div>
+    <div class="carousel-caption">
+    	<h2 class="display-4">SHOP NOW</h2>
+    	<p class="text">with exclusive offers and amazing collections</p>
+    	
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+   <h2 id="Women'sFashion">Women's Collection</h2>
+   <hr>
+   <section class="women's-collection">
+   	<div class="container">
+		<div class="row">
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#SareeCollections"><img src="https://tse1.mm.bing.net/th?id=OIP.lEqD7VIPVGV_93SA40j82wHaLH&pid=Api&P=0&w=300&h=300" onclick="AddCart()" class="photo"></a>
+				<p>Sarees</p>
+				<p>price:899</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#KurtasColletions"> <img src="https://tse2.mm.bing.net/th?id=OIP.oFt8_qdnKG2HncontINHqgHaLH&pid=Api&P=0&w=300&h=300"></a>
+				<p>Kurtas</p>
+				<p>price:699</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#LehengaCollections"> <img src="https://tse4.mm.bing.net/th?id=OIP.wNVhR8RW-ukldoELUOW0jgHaKt&pid=Api&P=0&w=300&h=300">
+				<p>Lehenga</p>
+				<p>price:1909</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#DressMaterials"><img src="https://tse1.mm.bing.net/th?id=OIP.owEHcwCl71AyKKQn64KJnwHaJ4&pid=Api&P=0&w=300&h=300"></a>
+            <p>Dress Materials</p>
+            <p>price:300</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#JeansCollection"><img src="https://tse2.mm.bing.net/th?id=OIP.xqedi6EuBiFvY4HqPjQZGQHaLW&pid=Api&P=0&w=300&h=300">
+            <p>Jeans</p>
+            <p>price:800</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#Tops"><img src="https://tse1.mm.bing.net/th?id=OIP.G3iSIL7IxZ3q6AAoOf4ZVwHaHa&pid=Api&P=0&w=300&h=300">
+            <p>Tops</p>
+            <p>price:360</p>
+			</div>
+		</div>
+	</div>
+   	
+   </section>
+   <h2 id="Men'sFashion">Men's Collection</h2>
+   <hr>
+   <section class="Men's-collection">
+   	<div class="container">
+		<div class="row">
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#SareeCollections"><img src="https://tse1.mm.bing.net/th?id=OIP.lEqD7VIPVGV_93SA40j82wHaLH&pid=Api&P=0&w=300&h=300"></a>
+				<p>Jeans</p>
+				<p>price:899</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse2.mm.bing.net/th?id=OIP.oFt8_qdnKG2HncontINHqgHaLH&pid=Api&P=0&w=300&h=300">
+				<p>T-shirts</p>
+				<p>price:699</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse4.mm.bing.net/th?id=OIP.wNVhR8RW-ukldoELUOW0jgHaKt&pid=Api&P=0&w=300&h=300">
+				<p>Shirts</p>
+				<p>price:1909</p>
+			</div>
+			<div class="imgs col-lg-6 col-md-6 col-12">
+            <a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.owEHcwCl71AyKKQn64KJnwHaJ4&pid=Api&P=0&w=300&h=300"></a>
+            <p>Blazers</p>
+            <p>price:300</p>
+			</div>
+			<div class="imgs col-lg-6 col-md-6 col-12">
+            <a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.xqedi6EuBiFvY4HqPjQZGQHaLW&pid=Api&P=0&w=300&h=300">
+            <p>Formal wear</p>
+            <p>price:800</p>
+			</div>
+		</div>
+	</div>
+   	
+   </section>
+   </div>
+   <h2 id="Gadgets">Electronic Gadgets</h2>
+   <hr>
+   <section class="Electronic-Gadgets">
+   	<div class="container">
+		<div class="row">
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#SareeCollections"><img src="https://tse1.mm.bing.net/th?id=OIP.lEqD7VIPVGV_93SA40j82wHaLH&pid=Api&P=0&w=300&h=300"></a>
+				<p>Mobiles</p>
+				<p>price:899</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#Kurtas"><img src="https://tse2.mm.bing.net/th?id=OIP.oFt8_qdnKG2HncontINHqgHaLH&pid=Api&P=0&w=300&h=300"></a>
+				<p>Tablets</p>
+				<p>price:699</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse4.mm.bing.net/th?id=OIP.wNVhR8RW-ukldoELUOW0jgHaKt&pid=Api&P=0&w=300&h=300">
+				<p>LapTops</p>
+				<p>price:1909</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.owEHcwCl71AyKKQn64KJnwHaJ4&pid=Api&P=0&w=300&h=300"></a>
+            <p>DeskTops</p>
+            <p>price:300</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.xqedi6EuBiFvY4HqPjQZGQHaLW&pid=Api&P=0&w=300&h=300">
+            <p>Powerbank</p>
+            <p>price:800</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.G3iSIL7IxZ3q6AAoOf4ZVwHaHa&pid=Api&P=0&w=300&h=300">
+            <p>Head-sets</p>
+            <p>price:360</p>
+			</div>
+		</div>
+	</div>
+   	
+   </section>
+   </div>
+   <h2 id="Kid'sFashion">Kid's Collection</h2>
+   <hr>
+   <section class="Kid's-collection">
+   	<div class="container">
+		<div class="row">
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#SareeCollections"><img src="https://tse1.mm.bing.net/th?id=OIP.lEqD7VIPVGV_93SA40j82wHaLH&pid=Api&P=0&w=300&h=300"></a>
+				<p>Sarees</p>
+				<p>price:899</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse2.mm.bing.net/th?id=OIP.oFt8_qdnKG2HncontINHqgHaLH&pid=Api&P=0&w=300&h=300">
+				<p>Kurtas</p>
+				<p>price:699</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse4.mm.bing.net/th?id=OIP.wNVhR8RW-ukldoELUOW0jgHaKt&pid=Api&P=0&w=300&h=300">
+				<p>Lehenga</p>
+				<p>price:1909</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.owEHcwCl71AyKKQn64KJnwHaJ4&pid=Api&P=0&w=300&h=300"></a>
+            <p>Dress Materials</p>
+            <p>price:300</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.xqedi6EuBiFvY4HqPjQZGQHaLW&pid=Api&P=0&w=300&h=300">
+            <p>Jeans</p>
+            <p>price:800</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.G3iSIL7IxZ3q6AAoOf4ZVwHaHa&pid=Api&P=0&w=300&h=300">
+            <p>Tops</p>
+            <p>price:360</p>
+			</div>
+		</div>
+	</div>
+   	
+   </section>
+   </div>
+   <h2 id="Watches">Watches</h2>
+   <hr>
+   <section class="watch-collection">
+   	<div class="container">
+		<div class="row">
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#SareeCollections"><img src="https://tse1.mm.bing.net/th?id=OIP.lEqD7VIPVGV_93SA40j82wHaLH&pid=Api&P=0&w=300&h=300"></a>
+				<p>Analog Watches</p>
+				<p>price:899</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse2.mm.bing.net/th?id=OIP.oFt8_qdnKG2HncontINHqgHaLH&pid=Api&P=0&w=300&h=300">
+				<p>Digital Watches</p>
+				<p>price:699</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse4.mm.bing.net/th?id=OIP.wNVhR8RW-ukldoELUOW0jgHaKt&pid=Api&P=0&w=300&h=300">
+				<p>Touchscreen Watches</p>
+				<p>price:1909</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.owEHcwCl71AyKKQn64KJnwHaJ4&pid=Api&P=0&w=300&h=300"></a>
+            <p>Tactile Watches</p>
+            <p>price:300</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.xqedi6EuBiFvY4HqPjQZGQHaLW&pid=Api&P=0&w=300&h=300">
+            <p>Casual Watches</p>
+            <p>price:800</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.G3iSIL7IxZ3q6AAoOf4ZVwHaHa&pid=Api&P=0&w=300&h=300">
+            <p>Luxury Watches</p>
+            <p>price:360</p>
+			</div>
+		</div>
+	</div>
+   	
+   </section>
+   </div>
+   <h2 id="Books">eBook</h2>
+   <hr>
+   <section class="Books-collection">
+   	<div class="container">
+		<div class="row">
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#SareeCollections"><img src="https://tse1.mm.bing.net/th?id=OIP.lEqD7VIPVGV_93SA40j82wHaLH&pid=Api&P=0&w=300&h=300"></a>
+				<p>Fiction</p>
+				<p>price:899</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse2.mm.bing.net/th?id=OIP.oFt8_qdnKG2HncontINHqgHaLH&pid=Api&P=0&w=300&h=300">
+				<p>Non-fiction</p>
+				<p>price:699</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse4.mm.bing.net/th?id=OIP.wNVhR8RW-ukldoELUOW0jgHaKt&pid=Api&P=0&w=300&h=300">
+				<p>Thr</p>
+				<p>price:1909</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.owEHcwCl71AyKKQn64KJnwHaJ4&pid=Api&P=0&w=300&h=300"></a>
+            <p>Dress Materials</p>
+            <p>price:300</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.xqedi6EuBiFvY4HqPjQZGQHaLW&pid=Api&P=0&w=300&h=300">
+            <p>Jeans</p>
+            <p>price:800</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse1.mm.bing.net/th?id=OIP.G3iSIL7IxZ3q6AAoOf4ZVwHaHa&pid=Api&P=0&w=300&h=300">
+            <p>Tops</p>
+            <p>price:360</p>
+			</div>
+		</div>
+	</div>
+   	
+   </section>
+   <h2 id="Kurtas">Women's Collection</h2>
+   <hr>
+   <section class="women's-collection">
+   	<div class="container">
+		<div class="row">
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#SareeCollections"><img src="https://tse1.mm.bing.net/th?id=OIP.lEqD7VIPVGV_93SA40j82wHaLH&pid=Api&P=0&w=300&h=300"></a>
+				<p>price:899</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse1.mm.bing.net/th?id=OIP.RIJ0t6aufCpYgsSxuhhyVgHaLH&pid=Api&P=0&w=300&h=300">
+				<p>price:699</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse1.mm.bing.net/th?id=OIP.aETQcO94z6xIy7_kTskYSwHaKL&pid=Api&P=0&w=300&h=300">
+				<p>price:1909</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.slvJZx3I4iUzTgSojEtZkgHaLq&pid=Api&P=0&w=300&h=300"></a>
+            <p>price:300</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.ZIStHH2VpTSoZU7c_a5BeQHaKt&pid=Api&P=0&w=300&h=300">
+            <p>price:800</p>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse4.mm.bing.net/th?id=OIP.C-_YEcLmiW5Om8DyWPxBSwHaKI&pid=Api&P=0&w=300&h=300">
+            <p>price:360</p>
+			</div>
+		</div>
+	</div>
+   	
+   </section>
+   </div>
+   <section class="women's-collection">
+   	<div class="container">
+		<div class="row">
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<a href="#SareeCollections"><img src="https://tse1.mm.bing.net/th?id=OIP.lEqD7VIPVGV_93SA40j82wHaLH&pid=Api&P=0&w=300&h=300"></a>
+				<p>price:899</p>
+				<button class="add_cart btn btn-outline-warning my-2 my-sm-0">Add To Cart</button>
+				<button class="buy_now btn btn-outline-success my-2 my-sm-0">Buy Now</button>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse1.mm.bing.net/th?id=OIP.RIJ0t6aufCpYgsSxuhhyVgHaLH&pid=Api&P=0&w=300&h=300">
+				<p>price:699</p>
+				<button class="add_cart btn btn-outline-warning my-2 my-sm-0">Add To Cart</button>
+				<button class="buy_now btn btn-outline-success my-2 my-sm-0">Buy Now</button>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+				<img src="https://tse1.mm.bing.net/th?id=OIP.aETQcO94z6xIy7_kTskYSwHaKL&pid=Api&P=0&w=300&h=300">
+				<p>price:1909</p>
+				<button class="add_cart btn btn-outline-warning my-2 my-sm-0">Add To Cart</button>
+				<button class="buy_now btn btn-outline-success my-2 my-sm-0">Buy Now</button>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse2.mm.bing.net/th?id=OIP.slvJZx3I4iUzTgSojEtZkgHaLq&pid=Api&P=0&w=300&h=300"></a>
+            <p>price:300</p>
+                <button class="add_cart btn btn-outline-warning my-2 my-sm-0">Add To Cart</button>
+			    <button class="buy_now btn btn-outline-success my-2 my-sm-0">Buy Now</button>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.ZIStHH2VpTSoZU7c_a5BeQHaKt&pid=Api&P=0&w=300&h=300"></a>
+            <p>price:800</p>
+                <button class="add_cart btn btn-outline-warning my-2 my-sm-0">Add To Cart</button>
+				<button class="buy_now btn btn-outline-success my-2 my-sm-0">Buy Now</button>
+			</div>
+			<div class="imgs col-lg-4 col-md-4 col-12">
+            <a href="#"><img src="https://tse4.mm.bing.net/th?id=OIP.C-_YEcLmiW5Om8DyWPxBSwHaKI&pid=Api&P=0&w=300&h=300"></a>
+            <p>price:360</p>
+               <button class="add_cart btn btn-outline-warning my-2 my-sm-0">Add To Cart</button>
+				<button class="buy_now btn btn-outline-success my-2 my-sm-0">Buy Now</button>
+			</div>
+		</div>
+	</div>
+   	
+   </section>
+   <div class="add_to_cart">
+
+   	
+
+   	
+   </div>
+  
+   <script type="text/javascript">
+
+   	var count=document.getElementById("count");
+   	function AddCart(){
+   		count+=1;
+   	}
+
+   	
+   </script>
+</body>
+</html>
